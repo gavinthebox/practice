@@ -7,7 +7,7 @@ function twoSum(nums: number[], target: number) {
 
   for (let i = 0; i <= nums.length; i++) {
     const complement = target - nums[i];
-    if (complements.get(nums[i]) != undefined) {
+    if (complements.get(nums[i]) !== undefined) {
       return [complements.get(nums[i]), i];
     }
     complements.set(complement, i);
