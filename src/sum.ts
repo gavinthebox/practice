@@ -1,4 +1,4 @@
 function sum(a: number, b: number) {
-  return a + b;
+  throw new Error('Not implemented');
 }
 export default sum;
